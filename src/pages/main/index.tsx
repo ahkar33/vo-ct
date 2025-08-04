@@ -1,4 +1,5 @@
 import Footer from "@/components/layout/footer";
+import MobileDrawer from "@/components/layout/mobile-drawer";
 import Navbar from "@/components/layout/navbar";
 import AnyPlatForm from "@/components/sections/any-platform";
 import Charity from "@/components/sections/charity";
@@ -12,6 +13,7 @@ import WeTaught from "@/components/sections/we-taught";
 const Main = () => {
 	return (
 		<>
+			<MobileDrawer />
 			<Navbar />
 			<Hero />
 			<Partners />
