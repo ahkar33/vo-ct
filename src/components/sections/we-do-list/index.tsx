@@ -2,11 +2,11 @@ import { ConceptImg, DesignImg, ResearchImg } from "@/assets";
 
 const WeDoList = () => {
 	return (
-		<div className="x-padding lg:w-[85%] xl:w-[78%] mx-auto py-[32px] lg:py-[64px]">
+		<div className="x-padding lg:w-[85%] xl:w-[80%] mx-auto py-[32px] lg:py-[64px]">
 			<div className="flex-col flex gap-[32px] lg:gap-[64px]">
 				<div className="grid gap-[16px] lg:gap-[32px] lg:grid-cols-2">
 					<div className="flex flex-col gap-[16px]">
-						<h4 className="font-bold z-[3] text-[24px] md:text-[32px] lg:text-[40px] leading-[100%] font-sfprod">
+						<h4 className="font-bold xl:text-nowrap z-[3] text-[24px] md:text-[32px] lg:text-[40px] leading-[100%] font-sfprod">
 							1# Research & Analysis
 						</h4>
 						<p className="text-[16px] z-[3] md:text-[18px] font-sfprot leading-[24px] lg:leading-[32px] lg:text-[20px]">
@@ -25,7 +25,7 @@ const WeDoList = () => {
 				</div>
 				<div className="grid gap-[16px] lg:gap-[32px] lg:grid-cols-2">
 					<div className="flex flex-col gap-[16px] lg:order-2">
-						<h4 className="font-bold z-[3] text-[24px] md:text-[32px] lg:text-[40px] leading-[100%] font-sfprod">
+						<h4 className="font-bold xl:text-nowrap z-[3] text-[24px] md:text-[32px] lg:text-[40px] leading-[100%] font-sfprod">
 							2# Concept development:
 						</h4>
 						<p className="text-[16px] z-[3] md:text-[18px] font-sfprot leading-[24px] lg:leading-[32px] lg:text-[20px]">
@@ -42,7 +42,7 @@ const WeDoList = () => {
 				</div>
 				<div className="grid gap-[16px] lg:gap-[32px] lg:grid-cols-2">
 					<div className="flex flex-col gap-[16px]">
-						<h4 className="font-bold z-[3] text-[24px] md:text-[32px] lg:text-[40px] leading-[100%] font-sfprod">
+						<h4 className="font-bold xl:text-nowrap z-[3] text-[24px] md:text-[32px] lg:text-[40px] leading-[100%] font-sfprod">
 							3# Design and execution:
 						</h4>
 						<p className="text-[16px] z-[3] md:text-[18px] font-sfprot leading-[24px] lg:leading-[32px] lg:text-[20px]">
