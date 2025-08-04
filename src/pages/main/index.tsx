@@ -1,3 +1,4 @@
+import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
 import AnyPlatForm from "@/components/sections/any-platform";
 import Charity from "@/components/sections/charity";
@@ -20,6 +21,7 @@ const Main = () => {
 			<WeTaught />
 			<Reviews />
 			<Charity />
+			<Footer />
 		</>
 	);
 };

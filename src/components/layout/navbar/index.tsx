@@ -6,7 +6,7 @@ const Navbar = () => {
 	const handleMenuClick = (sectionId: string) => {
 		const section = document.getElementById(sectionId);
 		if (section) {
-			const yOffset = -80;
+			const yOffset = sectionId === "review" ? -130 : -100;
 			const y =
 				section.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
