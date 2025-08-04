@@ -11,6 +11,9 @@ import WeDoStringLeft from "./we-do-string-left.png";
 import WeDoStringRight from "./we-do-string-right.png";
 import WeDoHeartLeft from "./we-do-heart-left.png";
 import WeDoHeartRight from "./we-do-heart-right.png";
+import ConceptImg from "./concept-img.png";
+import ResearchImg from "./research-img.png";
+import DesignImg from "./design-img.png";
 
 export {
 	NavLogo,
@@ -26,4 +29,7 @@ export {
 	WeDoStringRight,
 	WeDoHeartLeft,
 	WeDoHeartRight,
+	ConceptImg,
+	ResearchImg,
+	DesignImg,
 };

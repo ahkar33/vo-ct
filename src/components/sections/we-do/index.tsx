@@ -34,7 +34,7 @@ const WeDo = () => {
 			<img
 				src={WeDoHeartLeft}
 				alt="heart-left"
-				className="w-[70px] z-[2] top-[120px] left-[80px] lg:top-[200px] lg:left-[190px] absolute lg:w-[120px] opacity-40 lg:opacity-100"
+				className="w-[70px] z-[2] top-[120px] left-[80px] lg:top-[200px] lg:left-[190px] absolute lg:w-[120px] opacity-30 lg:opacity-100"
 			/>
 			<img
 				src={WeDoHandRight}
@@ -44,17 +44,17 @@ const WeDo = () => {
 			<img
 				src={WeDoHeartRight}
 				alt="heart-right"
-				className="w-[70px] z-[2] lg:w-[120px] bottom-[120px] lg:right-[160px] lg:bottom-[240px] right-[90px] absolute opacity-50 lg:opacity-100"
+				className="w-[70px] z-[2] lg:w-[120px] bottom-[120px] lg:right-[160px] lg:bottom-[240px] right-[90px] absolute opacity-30 lg:opacity-100"
 			/>
 			<img
 				src={WeDoStringLeft}
 				alt="string-left"
-				className="absolute top-0 left-0 h-[400px] z-[1] lg:h-[680px] opacity-40 lg:opacity-100"
+				className="absolute top-0 left-0 h-[400px] z-[1] lg:h-[680px] hidden sm:block opacity-40 lg:opacity-100"
 			/>
 			<img
 				src={WeDoStringRight}
 				alt="string-right"
-				className="absolute bottom-[10px] z-[1] h-[400px] right-0 lg:h-[366px] opacity-40 lg:opacity-100"
+				className="absolute bottom-[10px] z-[1] h-[400px] right-0 lg:h-[366px] hidden sm:block opacity-40 lg:opacity-100"
 			/>
 		</div>
 	);
