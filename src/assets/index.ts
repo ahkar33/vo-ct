@@ -20,6 +20,8 @@ import Person3 from "./person-3.png";
 import ReviewPerson1 from "./review-persion-1.png";
 import ReviewPreson2 from "./review-person-2.png";
 import ReviewPerson3 from "./review-person-3.png";
+import Charity1 from "./charity-1.png";
+import Charity2 from "./charity-2.png";
 
 export {
 	NavLogo,
@@ -44,4 +46,6 @@ export {
 	ReviewPerson1,
 	ReviewPreson2,
 	ReviewPerson3,
+	Charity1,
+	Charity2,
 };

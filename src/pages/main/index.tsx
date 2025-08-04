@@ -1,5 +1,6 @@
 import Navbar from "@/components/layout/navbar";
 import AnyPlatForm from "@/components/sections/any-platform";
+import Charity from "@/components/sections/charity";
 import Hero from "@/components/sections/hero";
 import Partners from "@/components/sections/partners";
 import Reviews from "@/components/sections/reviews";
@@ -18,6 +19,7 @@ const Main = () => {
 			<WeDoList />
 			<WeTaught />
 			<Reviews />
+			<Charity />
 		</>
 	);
 };

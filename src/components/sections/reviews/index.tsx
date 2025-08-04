@@ -1,5 +1,3 @@
-"use client";
-
 import { ReviewPerson1, ReviewPerson3, ReviewPreson2 } from "@/assets";
 import { cn } from "@/utils/cn";
 import { MoveLeft, MoveRight } from "lucide-react";
