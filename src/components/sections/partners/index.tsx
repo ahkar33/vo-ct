@@ -74,7 +74,7 @@ const Partners = () => {
 			<img
 				src={PartnerString}
 				alt="partners"
-				className="absolute z-[0] left-0 top-0 w-[700px] h-auto lg:opacity-1 opacity-50"
+				className="absolute z-[0] left-0 top-0 w-[700px] h-auto hidden sm:block lg:opacity-1 opacity-50"
 			/>
 
 			<div className="relative z-[1]">
