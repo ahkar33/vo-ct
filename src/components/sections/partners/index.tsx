@@ -26,12 +26,12 @@ const Partners = () => {
 	const cards: PartnerCard[] = [
 		{
 			icon: TwitterIcon,
-			date: "2024 — 2025",
+			date: "2008 — TODAY",
 			desc: "Provides communication between the agency and brands. Collects customer feedback and encourages discussion about the product, which helps improve it.",
 		},
 		{
 			icon: PinterestIcon,
-			date: "2025 — TODAY",
+			date: "2012 — TODAY",
 			desc: "Provides unlimited access to audience boards. Encourages creative partnerships and improves visibility.",
 		},
 	];
@@ -70,7 +70,10 @@ const Partners = () => {
 	);
 
 	return (
-		<div id="partners" className="py-[32px] lg:py-[56px] relative x-padding overflow-hidden">
+		<div
+			id="partners"
+			className="py-[32px] lg:py-[56px] relative x-padding overflow-hidden"
+		>
 			<img
 				src={PartnerString}
 				alt="partners"
