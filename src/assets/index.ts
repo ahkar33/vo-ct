@@ -17,6 +17,9 @@ import DesignImg from "./design-img.png";
 import Person1 from "./person-1.png";
 import Person2 from "./person-2.png";
 import Person3 from "./person-3.png";
+import ReviewPerson1 from "./review-persion-1.png";
+import ReviewPreson2 from "./review-person-2.png";
+import ReviewPerson3 from "./review-person-3.png";
 
 export {
 	NavLogo,
@@ -38,4 +41,7 @@ export {
 	Person1,
 	Person2,
 	Person3,
+	ReviewPerson1,
+	ReviewPreson2,
+	ReviewPerson3,
 };
