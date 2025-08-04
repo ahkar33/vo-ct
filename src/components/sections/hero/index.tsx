@@ -1,8 +1,21 @@
+import {
+	HeroHandLeft,
+	HeroHandRight,
+	HeroStringLeft,
+	HeroStringRight,
+} from "@/assets";
+import {
+	FacebookIcon,
+	InstagramIcon,
+	LightBulbIcon,
+	YoutubeIcon,
+} from "@/assets/icons";
+
 const Hero = () => {
 	return (
-		<div className="mt-[calc(112px+24px)] py-[40px] md:py-[140px] bg-red-300">
-			<div className="flex items-center flex-col gap-6 md:gap-[32px] justify-center w-full px-4 lg:w-[70%] mx-auto">
-				<h1 className="font-sfprod font-bold text-5xl sm:text-6xl md:text-7xl lg:text-[112px] leading-[1.1] tracking-[0%] text-center flex flex-wrap justify-center gap-x-2 md:gap-x-4 relative">
+		<div className="mt-[calc(112px+24px)] relative py-[40px] md:py-[140px]">
+			<div className="z-[3] flex items-center flex-col gap-6 md:gap-[32px] justify-center w-full px-4 lg:w-[70%] mx-auto">
+				<h1 className="font-sfprod z-[3]  font-bold text-5xl sm:text-6xl md:text-7xl lg:text-[112px] leading-[1.1] tracking-[0%] text-center flex flex-wrap justify-center gap-x-2 md:gap-x-4 relative">
 					<span>Spark your brand's&nbsp;</span>
 					<span className="inline-flex items-end space-x-2 md:space-x-4 whitespace-nowrap relative">
 						<span className="relative inline-block">
@@ -25,7 +38,7 @@ const Hero = () => {
 					<span>with us</span>
 				</h1>
 
-				<div className="w-full md:w-[80%] mx-auto px-2">
+				<div className="w-full z-[3] md:w-[80%] mx-auto px-2">
 					<p className="text-base text-[20px] font-sfprot leading-relaxed md:leading-[32px] text-center">
 						Our team combines strategy, design, and technology to breathe life
 						into your brand. Collaborate with us to leave a lasting impression
@@ -33,7 +46,7 @@ const Hero = () => {
 					</p>
 				</div>
 
-				<div className="relative w-full max-w-[567px] h-12 md:h-[64px]">
+				<div className="relative z-[3] w-full max-w-[567px] h-12 md:h-[64px]">
 					<input
 						type="email"
 						placeholder="Enter your Email"
@@ -44,6 +57,57 @@ const Hero = () => {
 					</button>
 				</div>
 			</div>
+			<img
+				src={HeroHandLeft}
+				alt="hero-hand-left"
+				className="absolute top-0 h-[217px] left-0 z-[2]"
+			/>
+			<img
+				src={HeroHandRight}
+				alt="hero-hand-right"
+				className="absolute bottom-[-40px] h-[426px] right-0 z-[2]"
+			/>
+			<img
+				src={HeroStringLeft}
+				alt="hero-string-left"
+				className="absolute top-0 h-[100%] left-0 z-[1]"
+			/>
+			<img
+				src={HeroStringRight}
+				alt="hero-string-right"
+				className="absolute bottom-[56px] h-[507px] right-0 z-[2]"
+			/>
+			<img
+				src={LightBulbIcon}
+				alt="light-bulb-icon"
+				className="absolute top-[257px] left-[207px] w-[100px] h-[100px] z-[2] rotate-[-16deg]"
+			/>
+			<img
+				src={InstagramIcon}
+				alt="instagram-icon"
+				className="absolute left-[36px] w-[60px] h-auto z-[2] rotate-[-18deg] top-[336px]"
+			/>
+			<img
+				src={FacebookIcon}
+				alt="facebook-icon"
+				className="absolute left-[132px] w-[120px] h-auto z-[2] rotate-[-18deg] bottom-[40px]"
+			/>
+
+			<img
+				src={LightBulbIcon}
+				alt="light-bulb-icon"
+				className="absolute top-[236px] right-[176px] w-[140px] h-[140px] z-[2] rotate-[-12deg]"
+			/>
+			<img
+				src={YoutubeIcon}
+				alt="youtube-icon"
+				className="absolute right-[160px] w-[60px] h-auto z-[2] botttom-[116px]"
+			/>
+			<img
+				src={FacebookIcon}
+				alt="facebook-icon"
+				className="absolute right-[10px] w-[80px] h-auto z-[2] rotate-[18deg] top-[140px]"
+			/>
 		</div>
 	);
 };
