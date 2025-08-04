@@ -11,7 +11,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="fixed pt-[56px] pb-[24px] left-0 top-0 z-[10]  w-full bg-secondary x-padding">
+		<nav className="fixed pt-[56px] pb-[24px] left-0 top-0 z-[50]  w-full bg-secondary x-padding">
 			<div className="flex w-full justify-between ">
 				<div className="flex gap-[8px] items-center">
 					<img src={NavLogo} alt="nav-logo" className="w-[32px] h-[32px]" />
