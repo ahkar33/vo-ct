@@ -4,6 +4,7 @@ import Hero from "@/components/sections/hero";
 import Partners from "@/components/sections/partners";
 import WeDo from "@/components/sections/we-do";
 import WeDoList from "@/components/sections/we-do-list";
+import WeTaught from "@/components/sections/we-taught";
 
 const Main = () => {
 	return (
@@ -14,6 +15,7 @@ const Main = () => {
 			<AnyPlatForm />
 			<WeDo />
 			<WeDoList />
+			<WeTaught />
 		</>
 	);
 };

@@ -14,6 +14,9 @@ import WeDoHeartRight from "./we-do-heart-right.png";
 import ConceptImg from "./concept-img.png";
 import ResearchImg from "./research-img.png";
 import DesignImg from "./design-img.png";
+import Person1 from "./person-1.png";
+import Person2 from "./person-2.png";
+import Person3 from "./person-3.png";
 
 export {
 	NavLogo,
@@ -32,4 +35,7 @@ export {
 	ConceptImg,
 	ResearchImg,
 	DesignImg,
+	Person1,
+	Person2,
+	Person3,
 };
