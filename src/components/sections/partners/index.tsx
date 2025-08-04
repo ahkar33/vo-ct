@@ -39,9 +39,11 @@ const Partners = () => {
 	const CardContent = ({
 		card,
 		index,
+		isHidden,
 	}: {
 		card: PartnerCard;
 		index: number;
+		isHidden?: boolean;
 	}) => (
 		<div
 			className={cn(
@@ -49,6 +51,7 @@ const Partners = () => {
 				{
 					"bg-pink-light": index % 2 === 1,
 					"bg-pink-dark": index % 2 === 0,
+					"opacity-0": isHidden,
 				}
 			)}
 		>
@@ -126,7 +129,7 @@ const Partners = () => {
 									slidesPerView="auto"
 									breakpoints={{
 										1024: {
-											slidesPerView: 2,
+											// slidesPerView: 2.1,
 											spaceBetween: 24,
 										},
 									}}
@@ -136,10 +139,9 @@ const Partners = () => {
 											<CardContent card={card} index={index} />
 										</SwiperSlide>
 									))}
-									<SwiperSlide
-										className="!w-[24px] !h-[196px]"
-										aria-hidden="true"
-									/>
+									<SwiperSlide className="!w-[404px] !h-[196px]">
+										<CardContent isHidden={true} card={cards[0]} index={3} />
+									</SwiperSlide>
 								</Swiper>
 							</div>
 						) : (
