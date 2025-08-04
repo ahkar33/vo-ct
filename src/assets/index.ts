@@ -22,6 +22,8 @@ import ReviewPreson2 from "./review-person-2.png";
 import ReviewPerson3 from "./review-person-3.png";
 import Charity1 from "./charity-1.png";
 import Charity2 from "./charity-2.png";
+import PlatformYoutube1 from "./platform-youtube-1.png";
+import PlatformYoutube2 from "./platform-youtube-2.png";
 
 export {
 	NavLogo,
@@ -48,4 +50,6 @@ export {
 	ReviewPerson3,
 	Charity1,
 	Charity2,
+	PlatformYoutube1,
+	PlatformYoutube2,
 };
