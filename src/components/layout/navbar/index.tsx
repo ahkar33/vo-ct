@@ -32,7 +32,7 @@ const Navbar = () => {
 				</div>
 				<div className="flex items-center gap-[8px]">
 					<button className="bg-pink-dark rounded-[100px] cursor-pointer flex items-center justify-center py-[12px] px-[16px] sm:px-[32px]">
-						<p className="font-semibold text-[18px] tracking-[0.01em]">
+						<p className="font-semibold font-sfprot text-[18px] tracking-[0.01em]">
 							<span>Join</span>
 							<span className="hidden sm:inline">&nbsp;The Creator</span>
 						</p>
