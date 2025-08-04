@@ -70,7 +70,7 @@ const Partners = () => {
 	);
 
 	return (
-		<div className="py-[56px] relative x-padding overflow-hidden">
+		<div id="partners" className="py-[32px] lg:py-[56px] relative x-padding overflow-hidden">
 			<img
 				src={PartnerString}
 				alt="partners"
@@ -142,7 +142,7 @@ const Partners = () => {
 						) : (
 							<div className="w-full flex flex-col gap-[24px]">
 								{cards.map((card, index) => (
-									<div key={index} className="w-full !min-h-[196px]">
+									<div key={index} className="w-full">
 										<CardContent card={card} index={index} />
 									</div>
 								))}
